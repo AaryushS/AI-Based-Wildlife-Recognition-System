@@ -1,0 +1,97 @@
+Classification Report:
+                precision    recall  f1-score   support
+
+      antelope       0.98      0.98      0.98        60
+        badger       1.00      0.97      0.98        60
+           bat       1.00      0.97      0.98        60
+          bear       0.95      0.98      0.97        60
+           bee       0.98      0.97      0.97        60
+        beetle       0.98      0.95      0.97        60
+         bison       0.98      1.00      0.99        60
+          boar       0.95      0.97      0.96        60
+     butterfly       0.95      0.98      0.97        60
+           cat       1.00      0.90      0.95        60
+   caterpillar       0.98      0.93      0.96        60
+    chimpanzee       0.95      0.98      0.97        60
+     cockroach       0.97      1.00      0.98        60
+           cow       0.95      0.95      0.95        60
+        coyote       0.94      0.98      0.96        60
+          crab       0.98      0.98      0.98        60
+          crow       0.94      0.97      0.95        60
+          deer       0.97      0.95      0.96        60
+           dog       0.98      0.95      0.97        60
+       dolphin       1.00      0.95      0.97        60
+        donkey       0.95      0.98      0.97        60
+     dragonfly       0.97      0.97      0.97        60
+          duck       0.98      0.97      0.97        60
+         eagle       0.98      0.97      0.97        60
+      elephant       0.97      0.98      0.98        60
+      flamingo       0.98      0.98      0.98        60
+           fly       1.00      1.00      1.00        60
+           fox       0.97      0.98      0.98        60
+          goat       0.98      0.95      0.97        60
+      goldfish       1.00      1.00      1.00        60
+         goose       0.95      0.95      0.95        60
+       gorilla       0.98      0.97      0.97        60
+   grasshopper       0.98      1.00      0.99        60
+       hamster       0.98      0.95      0.97        60
+          hare       1.00      0.97      0.98        60
+      hedgehog       0.97      0.97      0.97        60
+  hippopotamus       0.97      0.97      0.97        60
+      hornbill       0.98      0.97      0.97        60
+         horse       0.97      0.93      0.95        60
+   hummingbird       0.98      1.00      0.99        60
+         hyena       0.98      0.97      0.97        60
+     jellyfish       0.98      1.00      0.99        60
+      kangaroo       0.98      0.98      0.98        60
+         koala       1.00      0.98      0.99        60
+      ladybugs       1.00      0.97      0.98        60
+       leopard       1.00      0.97      0.98        60
+          lion       1.00      0.98      0.99        60
+        lizard       0.97      0.97      0.97        60
+       lobster       1.00      1.00      1.00        60
+      mosquito       0.97      1.00      0.98        60
+          moth       0.93      0.95      0.94        60
+         mouse       0.90      0.93      0.92        60
+       octopus       0.98      0.95      0.97        60
+         okapi       0.97      0.98      0.98        60
+     orangutan       0.94      0.98      0.96        60
+         otter       0.98      0.95      0.97        60
+           owl       0.95      0.95      0.95        60
+            ox       0.96      0.92      0.94        60
+        oyster       0.98      1.00      0.99        60
+         panda       1.00      0.98      0.99        60
+        parrot       1.00      1.00      1.00        60
+pelecaniformes       0.98      0.95      0.97        60
+       penguin       1.00      1.00      1.00        60
+           pig       0.93      0.95      0.94        60
+        pigeon       0.97      1.00      0.98        60
+     porcupine       0.95      0.95      0.95        60
+        possum       0.95      0.98      0.97        60
+       raccoon       0.98      0.97      0.97        60
+           rat       0.92      0.93      0.93        60
+      reindeer       0.97      1.00      0.98        60
+    rhinoceros       0.90      1.00      0.94        60
+     sandpiper       0.98      1.00      0.99        60
+      seahorse       1.00      0.98      0.99        60
+          seal       0.95      1.00      0.98        60
+         shark       0.98      0.98      0.98        60
+         sheep       0.98      0.98      0.98        60
+         snake       0.98      1.00      0.99        60
+       sparrow       1.00      0.98      0.99        60
+         squid       0.94      1.00      0.97        60
+      squirrel       0.98      0.93      0.96        60
+      starfish       1.00      1.00      1.00        60
+          swan       0.98      0.98      0.98        60
+         tiger       0.97      0.98      0.98        60
+        turkey       0.98      0.98      0.98        60
+        turtle       1.00      0.97      0.98        60
+         whale       0.97      0.98      0.98        60
+          wolf       0.98      0.97      0.97        60
+        wombat       0.98      1.00      0.99        60
+    woodpecker       1.00      0.98      0.99        60
+         zebra       0.97      1.00      0.98        60
+
+      accuracy                           0.97      5400
+     macro avg       0.97      0.97      0.97      5400
+  weighted avg       0.97      0.97      0.97      5400

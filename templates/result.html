@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result">
+            <h2>Predicted Animal: {{ animal.capitalize() }}</h2>
+
+            <p><strong>Description:</strong> {{ info["description"] }}</p>
+            <p><strong>Habitat:</strong> {{ info["habitat"] }}</p>
+            <p><strong>Diet:</strong> {{ info["diet"] }}</p>
+            <p><strong>Lifespan:</strong> {{ info["lifespan"] }}</p>
+
+            {% if info["image"] %}
+                <img src="{{ info['image'] }}" alt="{{ animal }}" style="width:300px; border-radius: 10px;">
+            {% endif %}
+
+            <br>
+            <a href="/" class="btn">Upload Another Image</a>
+        </div>
+    </div>
+</body>
+</html>
